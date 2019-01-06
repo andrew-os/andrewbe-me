@@ -1,0 +1,27 @@
+$primary: #D65858;
+$secondary: #58D6D6;
+
+.Body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.Container{
+    flex: 1;
+    max-width: 60rem;
+    width: 90%;
+    margin: 3rem auto 0;
+    font-family: sans-serif;
+
+    h1{
+        color: #333;
+    }
+
+    p{
+        color: #aaa;
+    }
+    .underline{
+        border-bottom: 3px solid #D65858;
+    }
+}
+
