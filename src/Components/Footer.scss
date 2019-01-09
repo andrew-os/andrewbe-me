@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    background: #D65858;
+    font-family: sans-serif;
+
+    p{
+        color: #fff;
+    }
+}
+.social-nav{
+    list-style: none;
+    padding: 0;
+    color: #fff;
+    > li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+}
