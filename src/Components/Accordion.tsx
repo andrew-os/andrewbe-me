@@ -8,21 +8,36 @@ export default class Accordion extends React.Component<Props, State>{
 
         const openSections = {};
 
+        this.props.children.forEach(child => {
+            if(child.props.isOpen) {
+                openSections[child.props.label] = true;
+            }
+        })
+
         this.state = { openSections };
     }
 
     onClick = label => {
         const {
+            props: {allowMultipleOpen},
             state: { openSections },
         } = this;
 
         const isOpen = !!openSections[label];
-
-        this.setState({
-            openSections: {
-                [label]: !isOpen
-            }
-        });
+        if (allowMultipleOpen) {
+            this.setState({
+                openSections: {
+                    ...openSections,
+                    [label]: !isOpen
+                }
+            });
+        } else {
+            this.setState({
+                openSections: {
+                    [label]: !isOpen
+                }
+            });
+        }
     };
 
     render() {
@@ -33,7 +48,7 @@ export default class Accordion extends React.Component<Props, State>{
         } = this;
 
         return (
-            <div style={{ border: '2px solid #008f68'}}>
+            <div style={{ border: '2px solid #D65858'}}>
              {children.map(child => (
                  <AccordionSection
                     isOpen={!!openSections[child.props.label]}

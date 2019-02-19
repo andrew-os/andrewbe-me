@@ -14,8 +14,8 @@ export default class AccordionSection extends React.Component<Props, State> {
         return (
             <div
              style={{
-                 background: isOpen ? '#fae042' : '#6db65b',
-                 border: '1px solid #008f68',
+                 background: isOpen ? '#FFFFFF' : '#D65858',
+                 border: '1px solid #58D6D6',
                  padding: '5px 10px',
              }}>
                 <div onClick={onClick} style={{ cursor: 'pointer '}}>
@@ -26,7 +26,9 @@ export default class AccordionSection extends React.Component<Props, State> {
                     </div>
                 </div>
                 {isOpen && (
-                    <div>
+                    <div
+                      style={{background: isOpen ? '#58D6D6' : '#D65858',
+                    }}>
                         {this.props.children}
                     </div>
                 )}
