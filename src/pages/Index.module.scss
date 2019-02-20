@@ -24,4 +24,16 @@ $secondary: #58D6D6;
         border-bottom: 3px solid #D65858;
     }
 }
+.listUnstyled{
+    list-style: none;
 
+    >li {
+        padding: 5px 0;
+    }
+}
+
+.link{
+    color: $secondary;
+    border-bottom: 2px solid $primary;
+    text-decoration: none;
+}

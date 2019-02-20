@@ -48,7 +48,7 @@ export default class Accordion extends React.Component<Props, State>{
         } = this;
 
         return (
-            <div style={{ border: '2px solid #D65858'}}>
+            <div>
              {children.map(child => (
                  <AccordionSection
                     isOpen={!!openSections[child.props.label]}

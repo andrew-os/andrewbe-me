@@ -12,6 +12,7 @@ import * as styles from './Index.module.scss';
 
 
 
+
 export default class AccordionPage extends
 React.Component{
     public render() {
@@ -21,7 +22,7 @@ React.Component{
             <div className={styles.Container}>
                 <Accordion allowMultipleOpen>
                     <div label='Languages' isOpen>
-                        <ul>
+                        <ul className="accordion__list">
                             <li>HTML5</li>
                             <li>CSS(Sass, grid, Inline, in JS)</li>
                             <li>Bootstrap, Bulma</li>
@@ -33,7 +34,7 @@ React.Component{
                         </ul>
                     </div>
                     <div label='Basics'>
-                            <ul>
+                            <ul className="accordion__list">
                                 <li>Vue</li>
                                 <li>Python</li>
                                 <li>MongoDB</li>
@@ -41,12 +42,12 @@ React.Component{
                             </ul>
                     </div>
                     <div label='Testing'>
-                        <ul>
-                            <li>Jest, Mocha at entry level</li>
+                        <ul className="accordion__list">
+                            <li>Jest and Mocha at entry level</li>
                         </ul>
                     </div>
                     <div label='Work Tooling'>
-                        <ul>
+                        <ul className="accordion__list">
                             <li>Git</li>
                             <li>Gulp</li>
                             <li>Cli</li>

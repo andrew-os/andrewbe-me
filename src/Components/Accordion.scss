@@ -1,0 +1,40 @@
+.accordion__head{
+    position: relative;
+    display: block;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #D65858;
+}
+.chevron{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #D65858;
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        background: #58D6D6;
+    }
+}
+.chevron--arrow{
+    color: white;
+    font-size: 12px;
+}
+
+.accordion__list{
+    margin: 0 0 20px;
+    padding: 20px 0 20px 30px;
+    list-style: none;
+
+    > li {
+        padding: 0 0 5px;
+    }
+}
+
+.accordion__body{
+    border: 1px solid #D65858;
+    border-top: 0;
+}
