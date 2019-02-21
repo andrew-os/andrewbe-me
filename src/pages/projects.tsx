@@ -19,7 +19,7 @@ React.Component{
         <Header />
             <div className={styles.Container}>
                 <h1>Projects</h1>
-                <h3>These are sites I’ve built and worked on recently:</h3>
+                <h3>These are websites I’ve built and worked on recently:</h3>
                 <ul className={styles.listUnstyled}>
                     <li>
                         <a className={styles.link} href="https://www.lumiere-festival.com/" target="_blank">Lumiere</a>
@@ -29,21 +29,28 @@ React.Component{
                         <a className={styles.link} href="https://www.fairfield.co.uk/" target="_blank">Fairfield Halls</a>
                     </li>
                     <li>Snozone (not live)</li>
-                    <li>Harrypotter - 
-                        <a className={styles.link} href="https://www.harrypottertheplay.com/uk/" target="_blank">us</a>, 
-                        <a className={styles.link} href="https://www.harrypottertheplay.com/us/" target="_blank">uk</a>,
-                        <a className={styles.link} href="https://www.harrypottertheplay.com/au/" target="_blank">au</a>,
-                        <a className={styles.link} href="https://www.harry-potter-theater.de/" target="_blank">de</a>
+                    <li>
+                        <a className={styles.link} href="https://www.harrypottertheplay.com/" target="_blank">Harrypotter - us/uk/au/de</a>
+
                     </li>
-                    <li>Ny empire</li>
+                    <li>
+                        <a className={styles.link} href="https://empireoutlets.nyc/" target="_blank"></a> Ny empire</li>
                     <li>
                         <a href="https://www.theviewfromtheshard.com/" className={styles.link} target="_blank">The View from The Shard</a>
                     </li>
-                    <li>Skatepal</li>
-                    <li>FreeMovement Skateboarding</li>
-                    <li>Eightwire</li>
-                    <li>Lockley Concrete</li>
-                    <li>Coach Approach</li>
+                    <li>
+                        <a className={styles.link} href="http://skatepal.co.uk/" target="_blank">Skatepal</a>
+                    </li>
+
+                    <li>
+                        <a className={styles.link} href="https://eightwire.uk/services/websites/" target="_blank">Eightwire</a>
+                    </li>
+                    <li>
+                        <a className={styles.link} href="https://lockleyconcrete.co.uk/" target="_blank">Lockley Concrete</a>
+                    </li>
+                    <li>
+                       <a className={styles.link} href="https://thecoachapproach.co.uk/" target="_blank"> Coach Approach</a>
+                    </li>
                 </ul>
                 <h3>Javascript projects:</h3>
                 <p>WesBos, Tyler, Andrew Mead projects</p>

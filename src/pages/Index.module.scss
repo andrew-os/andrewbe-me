@@ -34,6 +34,22 @@ $secondary: #58D6D6;
 
 .link{
     color: $secondary;
-    border-bottom: 2px solid $primary;
     text-decoration: none;
+    display: inline-flex;
+    flex-direction: column;
+    &:after{
+        width: 100%;
+        display:inline-block;
+        height: 2px;
+        background: $primary;
+        position: relative;
+        content: '';
+         transition: transform 0.1s ease-in;
+    }
+
+    &:hover{
+        &:after{
+            transform: translateY(2px);
+        }
+    }
 }
