@@ -19,7 +19,7 @@ export default class ContactPage extends
                 <h1>Contact</h1>
                 <p>
                     Its best to contact me on email.<br/>
-                    Email me at -  <a href="mailto:andrewsleigh@protonmail.com">andrewsleigh@protonmail.com</a><br/>
+                    Email me at -  <a href="mailto:andrew.sleighweb@gmail.com" className={styles.link}>andrew.sleighweb@gmail.com</a><br/>
                     I am on my emails through the Mon - Fri week and will usually respond within 24hours.
                 </p>
                 </div>

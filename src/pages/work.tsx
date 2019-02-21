@@ -20,7 +20,6 @@ React.Component{
         <Header />
             <div className={styles.Container}>
                 <h1>Work</h1>
-                <button>CV</button>
                 <h3>Experience: 5 years.</h3>
                 <p>I’ve spent the past two years working purely as a Front End Developer.</p>  
                 <p>Previous to that I worked as a full stack developer.</p> 

@@ -53,9 +53,9 @@ React.Component{
                     </li>
                 </ul>
                 <h3>Javascript projects:</h3>
-                <p>WesBos, Tyler, Andrew Mead projects</p>
-            <p>This site andrewbe.me uses GraphQL, React, Gatsby and Typescript (gotta be proud of yourself!)
-                You can see various projects and apps I work on in my freetime on my <a href="https://github.com">github</a></p>
+                <p><a href="https://github-battle-80226.firebaseapp.com/" target="_blank" className={styles.link}>Github Battle App</a>, in development here on my <a href="https://github.com/andrew-os" className={styles.link} target="_blank">github</a> </p>
+            <p>This site <a href="/" className={styles.link}>andrewbe.me</a> uses GraphQL, React, Gatsby and Typescript (gotta be proud of yourself!)
+                You can see various projects and apps I work on in my freetime on my <a href="https://github.com/andrew-os" className={styles.link} target="_blank">github</a></p>
             </div>
          <Footer />
          </div>
