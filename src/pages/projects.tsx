@@ -24,7 +24,7 @@ React.Component{
                     <li>
                         <a className={styles.link} href="https://www.lumiere-festival.com/" target="_blank">Lumiere</a>
                     </li>
-                    <li>Perennial Garden Vue app for Hawaii arts instalation (in development)</li>
+                    <li><a className={styles.link} href="https://pg.nybg.org/#/" target="_blank">New York Perennial Garden</a> Vue app</li>
                     <li>
                         <a className={styles.link} href="https://www.fairfield.co.uk/" target="_blank">Fairfield Halls</a>
                     </li>
