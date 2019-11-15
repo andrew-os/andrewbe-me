@@ -33,7 +33,7 @@ export default class AccordionSection extends React.Component<Props, State> {
                 </div>
                 {isOpen && (
                     <div
-                      className="accordion__body"
+                      className="accordion__body accordion--is-open"
                       style={{background: isOpen ? '#FFFFFF' : '#D65858',
                     }}>
                         {this.props.children}

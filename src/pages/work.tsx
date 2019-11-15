@@ -30,8 +30,10 @@ React.Component{
                         <ul className="accordion__list">
                             <li>HTML5</li>
                             <li>CSS(Sass, grid, Inline, in JS)</li>
-                            <li>Bootstrap, Bulma</li>
+                            <li>BEM</li>
+                            <li>Bootstrap, Bulma, Tailwind Css</li>
                             <li>Javascript (Vanilla ES5, ES6,)</li>
+                            <li>SSR (Nuxt.js, Gatsby)</li>
                             <li>Jquery</li>
                             <li>React</li>
                             <li>Node + Express</li>
@@ -63,7 +65,7 @@ React.Component{
                             <li>Visual Studio Code</li>
                             <li>Photoshop</li>
                             <li>Zeplin</li>
-                            <li>Sketch</li>
+                            <li>Figma</li>
                         </ul>
                     </div>
                 </Accordion>   
