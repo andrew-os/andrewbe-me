@@ -15,6 +15,7 @@ export const Header: React.StatelessComponent<{}> = () => {
                         <ListLink to="/">Home</ListLink>
                         <ListLink to="/work/">Work</ListLink>
                         <ListLink to="/projects/">Projects</ListLink>
+                        <ListLink to="/podcast/">Podcasting</ListLink>
                         <ListLink to="/play/">Play</ListLink>
                         <ListLink to="/contact/">Contact</ListLink>
 

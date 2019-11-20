@@ -13,8 +13,8 @@ interface IndexPageProps {
     data:{
         site:{
             siteMetadata: {
-                name: string;
-                tagline: string;
+                title: string;
+                description: string;
             }
         }
     }
@@ -24,8 +24,8 @@ export const indexPageQuery = graphql`
     query IndexPageQuery{
         site {
             siteMetadata{
-                name
-                tagline
+                title
+                description
             }
         }
     }
