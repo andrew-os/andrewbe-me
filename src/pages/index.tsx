@@ -50,7 +50,7 @@ React.Component<IndexPageProps, {}>{
                 </p>   
 
                 <div>
-                    <p>Current location: <span style={{borderBottom: "3px solid #D65858"}}>London, UK</span></p>    
+                    <p>Current location: <span style={{borderBottom: "3px solid #D65858"}}>Queenstown, NZ</span></p>    
                 </div> 
             
             </div>
