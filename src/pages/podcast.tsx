@@ -4,7 +4,7 @@ import {graphql} from 'gatsby'
 import { Header } from '../Components/Header';
 import { Footer } from '../Components/Footer';
 
-import SEO from "../components/Seo"
+// import SEO from "../components/Seo"
 
 
 
@@ -28,7 +28,7 @@ interface Props {
   
     return (
         <div className={styles.Body}>
-            <SEO title="Andrew Sleigh Podcast Consulting" />
+           
             <Header />
             <div className={styles.Container}>
                 <h1>Hello Podcasting</h1>
