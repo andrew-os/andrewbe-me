@@ -57,7 +57,7 @@ React.Component{
                     </li>
                 </ul>
                 <h3>Javascript projects:</h3>
-                <p><a href="https://github-battle-80226.firebaseapp.com/" target="_blank" className={styles.link}>Github Battle App</a>, <a href="https://reactulator-js.herokuapp.com/" className={styles.link} target="_blank">Reactulator</a>in development here on my <a href="https://github.com/andrew-os" className={styles.link} target="_blank">github</a> </p>
+                <p><a href="https://github-battle-80226.firebaseapp.com/" target="_blank" className={styles.link}>Github Battle App</a>, <a href="https://reactulator-js.herokuapp.com/" className={styles.link} target="_blank">Reactulator</a> in development here on my <a href="https://github.com/andrew-os" className={styles.link} target="_blank">github</a> </p>
             <p>This site <a href="/" className={styles.link}>andrewbe.me</a> uses GraphQL, React, Gatsby and Typescript (gotta be proud of yourself!)
                 You can see various projects and apps I work on in my freetime on my <a href="https://github.com/andrew-os" className={styles.link} target="_blank">github</a></p>
             </div>
