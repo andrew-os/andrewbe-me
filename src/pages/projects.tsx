@@ -61,6 +61,7 @@ React.Component{
             <p>This site <a href="/" className={styles.link}>andrewbe.me</a> uses GraphQL, React, Gatsby and Typescript (gotta be proud of yourself!)
                 You can see various projects and apps I work on in my freetime on my <a href="https://github.com/andrew-os" className={styles.link} target="_blank">github</a></p>
             </div>
+            
          <Footer />
          </div>
         )
