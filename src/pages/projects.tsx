@@ -31,7 +31,7 @@ React.Component{
                         <a className={styles.link} href="https://www.lumiere-festival.com/" target="_blank">Lumiere</a>
                     </li>
                     <li>
-                        <a className={styles.link} href="https://pg.nybg.org/#/" target="_blank">New York Perennial Garden</a> Vue app
+                        <a className={styles.link} href="https://pg.nybg.org/#/" target="_blank">New York Perennial Garden</a> (Vue app)
                     </li>
                     <li>
                         <a className={styles.link} href="https://www.fairfield.co.uk/" target="_blank">Fairfield Halls</a>
@@ -40,7 +40,7 @@ React.Component{
                         <a className={styles.link} href="https://www.harrypottertheplay.com/" target="_blank">Harrypotter - us/uk/au/de</a>
                     </li>
                     <li>
-                        <a href="https://www.theviewfromtheshard.com/" className={styles.link} target="_blank">The View from The Shard</a>
+                        <a href="https://www.theviewfromtheshard.com/" className={styles.link} target="_blank">The View from The Shard</a> (Vue components inc.)
                     </li>
                     <li>
                         <a className={styles.link} href="http://skatepal.co.uk/" target="_blank">Skatepal</a>
