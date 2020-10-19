@@ -24,7 +24,7 @@ React.Component{
                 <p>These are websites I’ve built and worked on recently that showcase different designs, features and coding methods:</p>
                 <ul className={styles.listUnstyled}>
                     <li>
-                        <a className={styles.link} href="https://andrewbe-nuxt.netlify.app/" target="_blank">This website in Nuxt</a>
+                        <a className={styles.link} href="https://andrewbe-nuxt.netlify.app/" target="_blank">This website in Vue</a>
                     </li>
                     <li>
                         <a className={styles.link} href="https://punchdrunk.org.uk" target="_blank">Punchdrunk</a>
