@@ -19,8 +19,13 @@ React.Component{
         <Header />
             <div className={styles.Container}>
                 <h1>Projects</h1>
-                <h3>These are websites I’ve built and worked on recently:</h3>
+                <h2>Experience: 6 years</h2>
+                <p>Having worked as a Frontend developer for numerous years I have worked on 100's of websites.</p>
+                <p>These are websites I’ve built and worked on recently that showcase different designs, features and coding methods:</p>
                 <ul className={styles.listUnstyled}>
+                    <li>
+                        <a className={styles.link} href="https://andrewbe-nuxt.netlify.app/" target="_blank">This website in Nuxt</a>
+                    </li>
                     <li>
                         <a className={styles.link} href="https://punchdrunk.org.uk" target="_blank">Punchdrunk</a>
                     </li>
@@ -58,8 +63,8 @@ React.Component{
                 </ul>
                 <h3>Javascript projects:</h3>
                 <p><a href="https://github-battle-80226.firebaseapp.com/" target="_blank" className={styles.link}>Github Battle App</a>, <a href="https://reactulator-js.herokuapp.com/" className={styles.link} target="_blank">Reactulator</a> in development here on my <a href="https://github.com/andrew-os" className={styles.link} target="_blank">github</a> </p>
-            <p>This site <a href="/" className={styles.link}>andrewbe.me</a> uses GraphQL, React, Gatsby and Typescript (gotta be proud of yourself!)
-                You can see various projects and apps I work on in my freetime on my <a href="https://github.com/andrew-os" className={styles.link} target="_blank">github</a></p>
+                <p>This site <a href="/" className={styles.link}>andrewbe.me</a> uses GraphQL, React, Gatsby and Typescript (gotta be proud of yourself!)</p>
+                <p>You can see various projects and apps I work on in my freetime on my <a href="https://github.com/andrew-os" className={styles.link} target="_blank">github</a></p>
             </div>
             
          <Footer />

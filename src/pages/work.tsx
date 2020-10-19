@@ -20,11 +20,11 @@ React.Component{
         <Header />
             <div className={styles.Container}>
                 <h1>Work</h1>
-                <h3>Experience: 5 years.</h3>
-                <p>I’ve spent the past two years working purely as a Front End Developer.</p>  
-                <p>Previous to that I worked as a full stack developer.</p> 
-                <p>I mostly develop sites for Wordpress with the occasional static site or Single Page App.</p>
-                <p>I am currently focussing more on getting away from the Wordpress work flow and developing a more engineer way of coding.</p>
+                <h2>Experience: 6 years</h2>
+                <p>I’ve spent the past three years working purely as a Front End Developer, in London.</p> 
+                <p>This was mostly developing sites for Wordpress with the occasional static site or Single Page App.</p> <p>Previous to that I worked as a full stack developer.</p> 
+                <p>I am currently focussing more on getting away from the Wordpress work flow and developing a more engineer way of coding, using the latest technologies.</p> 
+                <br> 
                 <p>You can view my portfolio <Link to="/projects/" className={ styles.link}>here</Link></p>
                  <Accordion allowMultipleOpen>
                     <div label='Languages' isOpen>
@@ -33,7 +33,7 @@ React.Component{
                             <li>CSS(Sass, grid, Inline, in JS)</li>
                             <li>BEM Markup</li>
                             <li>Bootstrap, Bulma, Tailwind Css</li>
-                            <li>Javascript + Frameworks/libraries (ES5, ES6, React, Vue, jQuery)</li>
+                            <li>Javascript + Frameworks/libraries (ES5, ES6, React, Vue, jQuery, Svelte)</li>
                             <li>SSR (Nuxt.js, Gatsby)</li>
                             <li>Node + Express</li>
                             <li>PHP(mostly now with Twig/Timber framework)</li>
@@ -56,8 +56,8 @@ React.Component{
                             <li>Git</li>
                             <li>Gulp</li>
                             <li>Cli</li>
-                            <li>Webpack(basic)</li>
-                            <li>Babel(basic)</li>
+                            <li>Webpack</li>
+                            <li>Babel</li>
                             <li>Bitbucket</li>
                             <li>Github</li>
                             <li>Visual Studio Code</li>

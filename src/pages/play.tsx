@@ -27,7 +27,7 @@ React.Component{
                 </p>
 
                 <p>
-                    I volunteer when I can. I spent two months in the West Bank of Palestine teaching children to skateboard with Skatepal. I currently in the process of becoming a Home Reading Volunteer with Doorstep library, because reading is great.
+                    I volunteer when I can. I spent two months in the West Bank of Palestine teaching children to skateboard with Skatepal. In London I was a Home Reading Volunteer with Doorstep library, this was reading books with children who's English might have been falling behind for whatever reason, because reading is great.
                 </p>
                 <p>
                 

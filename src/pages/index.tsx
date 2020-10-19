@@ -43,7 +43,7 @@ React.Component<IndexPageProps, {}>{
                     My name is Andrew
                 </p>
                 <p>
-                    I’m a web developer of 5 years
+                    I’m a web developer of 6 years
                 </p>
                 <p>
                     I like to code, hack and adventure life away
